@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: #ffe5ec;
+}
+
+h1 {
+  background: #fb6f92;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  margin-top: 0;
+  border-radius: 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+h2 {
+  background: #f34654;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 0;
+  border-radius: 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+img {
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.hero {
+  background-image: url("monastery.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+}
+
+.section2 {
+  background: #ffc2d1;
+  display: flex;
+  flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.activities {
+  display: flex;
+  /* justify-content: space-between; */
+  padding-bottom: 20px;
+}
+
+/* .top-3 {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+
+.section3 {
+  display: flex;
+  background: #f34654;
+  width: 60%;
+  height: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 8px;
+  border-bottom: 4px solid rgb(0, 0, 0);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gsec {
+  margin-top: 12px;
+  order: 2;
+  width: 300px;
+}
+
+.section3img {
+  order: 1;
+  margin-right: 30px;
+  width: 200px;
+  height: 210px;
+  border-radius: 0%;
+  border: 2px solid whitesmoke;
+  margin-top: 5px;
+}
+
+/* Small devices (up to 575px) */
+@media (max-width: 575px) {
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    width: 90%;
+    padding-left: 35px;
+  }
+
+  .gsec {
+    margin-right: 30px;
+    width: 70%;
+    padding-left: 35px;
+  }
+
+  .section3img {
+    margin-left: ;
+  }
+
+  .section2 {
+  background: #ffc2d1;
+}
+
+.activities {
+    display: block;
+    margin: 10px 0;
+}
+}
+
+/* Large devices (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
